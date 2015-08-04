@@ -102,8 +102,8 @@ class IntermediateBuildProducts
 #endif
 
 #ifdef MLCP_SOLVER
-		btDantzigSolver mlcp;
-        //btSolveProjectedGaussSeidel mlcp;
+		//btDantzigSolver mlcp;
+        btSolveProjectedGaussSeidel mlcp;
 		btMLCPSolver solver;
 #else
 		btSequentialImpulseConstraintSolver solver;
